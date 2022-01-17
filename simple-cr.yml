@@ -1,0 +1,12 @@
+apiVersion: hivemq.com/v1
+kind: HiveMQCluster
+metadata:
+  name: hivemq-cluster1
+spec:
+  hivemqVersion: 4.3.3
+  nodeCount: 3
+  cpu: '4000m'
+  memory: '4096M'
+  logLevel: INFO
+  mqtt:
+    maxQos: 2
