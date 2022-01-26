@@ -1,0 +1,10 @@
+apiVersion: hivemq.com/v1
+hivemq:
+  cpu: "1"
+  memory: 1000Mi
+  nodeCount: 2
+  hivemqVersion: k8s-4.7.3
+  image: hivemq/hivemq4
+  logLevel: INFO
+  monitoring:
+    enablePrometheus: true
